@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "src": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "float"
+    },
+    "img": {
+      "type": "string",
+      "required": false
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer"
+    },
+    "seller": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "number": {
+      "type": "biginteger"
+    },
+    "place": {
+      "type": "text"
+    },
+    "location": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
