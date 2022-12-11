@@ -43,26 +43,6 @@
     "language": {
       "type": "string",
       "required": true
-    },
-    "price": {
-      "type": "integer"
-    },
-    "seller": {
-      "type": "string",
-      "required": true
-    },
-    "email": {
-      "type": "email"
-    },
-    "number": {
-      "type": "biginteger"
-    },
-    "place": {
-      "type": "text"
-    },
-    "location": {
-      "type": "json",
-      "required": true
     }
   }
 }
