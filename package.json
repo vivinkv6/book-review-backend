@@ -10,11 +10,10 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.0",
-    "@strapi/plugin-users-permissions": "4.5.0",
-    "@strapi/strapi": "4.5.0",
-    "better-sqlite3": "7.4.6",
-    "strapi-plugin-netlify-deployments": "^2.0.0"
+    "@strapi/plugin-i18n": "4.5.3",
+    "@strapi/plugin-users-permissions": "4.5.3",
+    "@strapi/strapi": "4.5.3", 
+    "better-sqlite3": "7.4.6"
   },
   "author": {
     "name": "A Strapi developer"

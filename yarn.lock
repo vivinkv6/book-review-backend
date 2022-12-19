@@ -1833,7 +1833,7 @@
     "@strapi/utils" "4.5.0"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.1.9", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.0":
+"@strapi/strapi@^4.3.4", "@strapi/strapi@4.5.0":
   "integrity" "sha512-t09RTrNLVJmWmJP8ZmOzy6IlsaKL1BEQjHaOgaK1We/qyzf/yfOKOQEkHQSC983YPvlY9rF1In55P0W4vVn0dQ=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.5.0.tgz"
   "version" "4.5.0"
@@ -2683,13 +2683,6 @@
   "integrity" "sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA=="
   "resolved" "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz"
   "version" "1.11.0"
-
-"axios@^0.26.1":
-  "integrity" "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA=="
-  "resolved" "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
-  "version" "0.26.1"
-  dependencies:
-    "follow-redirects" "^1.14.8"
 
 "axios@0.27.2":
   "integrity" "sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ=="
@@ -4779,7 +4772,7 @@
   "resolved" "https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz"
   "version" "1.1.0"
 
-"follow-redirects@^1.0.0", "follow-redirects@^1.14.8", "follow-redirects@^1.14.9":
+"follow-redirects@^1.0.0", "follow-redirects@^1.14.9":
   "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
   "version" "1.15.2"
@@ -8031,7 +8024,7 @@
     "react-fast-compare" "^3.1.1"
     "react-side-effect" "^2.1.0"
 
-"react-intl@^5.25.1", "react-intl@5.25.1":
+"react-intl@5.25.1":
   "integrity" "sha512-pkjdQDvpJROoXLMltkP/5mZb0/XqrqLoPGKUCfbdkP8m6U9xbK40K51Wu+a4aQqTEvEK5lHBk0fWzUV72SJ3Hg=="
   "resolved" "https://registry.npmjs.org/react-intl/-/react-intl-5.25.1.tgz"
   "version" "5.25.1"
@@ -9118,15 +9111,6 @@
   "integrity" "sha512-cNNS+VYsXIs5gI6gJipO4qZ8YYT274JHvNnQ1/R/x8Q8mdP0qj0zoMchRXmBNPqp/0eOEhX+3g7g6Fgb7meLIQ=="
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.3.0.tgz"
   "version" "3.3.0"
-
-"strapi-plugin-netlify-deployments@^2.0.0":
-  "integrity" "sha512-U3A66lsbze9mZSK1XlxFgKTc8yqKmAx1KHivmhx1stOmwfnucvWtuAIiDcA5GSxR9i23+IYzy5lAsu1gYZodYg=="
-  "resolved" "https://registry.npmjs.org/strapi-plugin-netlify-deployments/-/strapi-plugin-netlify-deployments-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "@strapi/strapi" "^4.1.9"
-    "axios" "^0.26.1"
-    "react-intl" "^5.25.1"
 
 "stream-browserify@^3.0.0":
   "integrity" "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA=="
